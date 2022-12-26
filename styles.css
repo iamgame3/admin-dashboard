@@ -13,7 +13,25 @@
 
 .sidebar {
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 4fr 4fr;
     background-color: var(--main-blue);
+}
+
+.brand {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    gap: 16px;
+}
+
+.brand:nth-child(1) {
+    padding-left: 16px;
+}
+
+.brand-text {
+    color: white;
+    font-size: 32px;
 }
 
 .header {
