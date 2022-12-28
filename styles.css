@@ -182,10 +182,10 @@
 }
 
 .announcment-card {
+    margin-right: 16px;
     padding: 16px;
     background-color: white;
     border-radius: 8px;
-    padding: 16px;
 }
 
 #middle-announcment {
@@ -201,6 +201,37 @@
     color: var(--text-grey);
     margin-top: 4px;
     font-size: 12px;
+}
+
+.trending-card {
+    margin-right: 16px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.trending-profile {
+    height: 54px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.trending-profile-picture {
+    grid-row: 1 / 3;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.trending-tag {
+    margin: 0;
+}
+
+.trending-text {
+    color: var(--text-grey);
+    font-size: 12px;
+    margin: 0;
 }
 
 .container div {
