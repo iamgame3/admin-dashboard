@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p, h1, h2, h3, 
+h4, h5, h6, button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 :root {
     --main-blue: rgb(0, 183, 255);
     --background-grey: rgb(230, 230, 230);
