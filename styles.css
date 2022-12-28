@@ -194,13 +194,14 @@
 }
 
 .announcment-title {
+    padding-top: 8px;
     margin: 0;
 }
 
 .announcment-text {
     color: var(--text-grey);
     margin-top: 4px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .trending-card {
