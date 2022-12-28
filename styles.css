@@ -221,7 +221,7 @@ h4, h5, h6, button {
 .trending-profile {
     height: 54px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
 }
