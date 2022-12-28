@@ -140,6 +140,42 @@
     background-color: var(--background-grey);
 }
 
+.section-header {
+    margin-left: 16px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 32px;
+    margin: 16px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    height: 150px;
+}
+
+.card-title {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.card-text {
+    color: rgb(109, 109, 109);
+    margin-top: 4px;
+}
+
+.card-icons {
+    margin-top: 32px;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
 .container div {
     border: 1px solid black;
 }
