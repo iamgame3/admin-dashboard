@@ -235,10 +235,6 @@
     margin: 0;
 }
 
-.container div {
-    border: 1px solid black;
-}
-
 .nav-option {
     display: grid;
     align-items: center;
